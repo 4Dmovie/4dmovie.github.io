@@ -1,0 +1,31 @@
+Overview: this course consists of three components in computer science.
+ - Language and standard libraries (C++).
+ - Data structure
+ - Algorithm design
+
+C++ language in this course is a continuation from CS31.  
+
+Data structure concerns about structures to store, query, look up, and update
+data so that it fits into the problem setting and sometimes improves the
+efficiency of the problem solving.
+Sequential(1D) data structure example: 1D array (quick to access elements, but
+slow to insert, delete, and look up).
+Any better structures for looking up elements?
+Tree (2D), (hash) map.
+Some data structures are simply mathematical models. For instance, we use
+graphs to model a map(like Google map), the internet, etc..
+
+Algorithm design concerns about the efficiency of a program to solve a given
+problem. For instance, given an array of N integers, the best way to check if
+an integer k appears in the array is to loop through each one of them, which
+takes in the worst case N iterations.
+However, if let's say the array is sorted. For example 1 1 3 4 5 7 10 11 13 ...
+Is there a faster way to check if k appears in it?
+Yes, one can use a binary search algorithm.
+
+For a program to be correct, it needs to satisfy the following two properties
+in addition to compiling correctly:
+ - It needs to terminate.
+ - It computes the correct output.
+People often overlook the termination condition, which introduces runtime 
+issues.

@@ -1,0 +1,27 @@
+We have two main types of C++ memory: stack and heap. The heap has larger
+space, mainly for storage of data. Stack is also a storage but for different
+purposes. It stores function calls, local variables, ..., basically things
+for your program to run properly. For instance, when your main() calls
+another function f() at line 45, the program will go ahead and execute the
+function f(), but it needs to know where to return(line 46) after it
+finishes. In general, such returning addresses are saved on the stack.
+This kind of data, along with local variables declared inside functions like
+main(), f(), are saved on the stack. Stack has relatively small memory compared
+to the heap, therefore one can never declare too large a local variable (e.g.
+an array with size >1e9). When the memory you put on the stack exceeds its
+limit, a runtime error called "stack overflow" will occur.
+
+How can we acquire a larger space to store data? A solution C/C++ provides
+is dynamic allocation. We may declare pointer types that points to data
+stored on the heap. One such example is a dynamically allocated array.
+Unlike arrays declared as local variables that are saved on the stack,
+a dynamically allocated array is saved on the heap and can be accessed
+via a pointer to its starting address. Since the heap has larger space, one can
+declare an array with a much greater size. Nevertheless, there's a payoff
+to this advantage: the memory accessing for the heap is usually slower
+than which for the stack. Moreover, though the heap has more memory avaiable,
+it doesn't automatically deallocate the memory like the stack does(stack
+pops variables out upon exiting function calls). Therefore, users need
+to write extra codes to deallocate the memory stored on heap before exiting.
+Otherwise, those junk memory will stay on the heap and eventually fill up
+the entire heap. Such hidden risk is called "memory leak".

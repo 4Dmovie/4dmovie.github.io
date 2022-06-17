@@ -1,0 +1,20 @@
+<html>
+<title>CS32 1B</title>
+<h1> UCLA CS32 Spring 2022 Discussion 1B</h1>
+Instructor: Prof. David Smallberg.<br>
+TA: Yiyou Chen. LA: Ian Galvez.<br>
+Discussion: 1B.<br>
+Time: F 10-11:50 am.<br>
+Location: Royce Hall 156. <br><br>
+Week 1: introduction and overview; C++ class construction/destruction; compiling and linking; circular dependency. <a href="./notes/Week1 Dis1B Notes.txt">notes</a>, <a href="./slides/Week1 Dis1B Slides.pdf">slides</a><br>
+Week 2: allocation and deallocation; dynamically allocated array v.s. array of pointers; copy constructor and assignment operator; operator overloading. <a href="./notes/Week2 Dis1B Notes.txt">notes</a>, <a href="./slides/Week2 Dis1B Slides.pdf">slides</a> <br>
+Week 3: singly, doubly, and circular linked list; dummy nodes. <a href="./slides/Week3 Dis1B Slides.pdf">slides</a><br>
+Week 4: stacks and queues; infix->postfix conversion; depth-first and breadth-first search. <a href="./slides/Week4 Dis1B Slides.pdf">slides</a><br>
+Week 5: inheritance and polymorphism; recursions.<a href="./slides/Week5 Dis1B Slides.pdf">slides</a><br>
+Week 6: C++ template class; STL containers; standard library find, sort; recursion review. <a href="./slides/Week6 Dis1B Slides.pdf">slides</a><br> 
+Week 7: time complexity analysis; sorting algorithms; midterm review.  <a href="./slides/Week7 Dis1B Slides.pdf">slides</a>, <a href="./slides/Week7 Dis1B Notes.pdf">notes</a><br>
+Week 8: general tree; binary search tree; self-balancing binary search tree; 
+STL set, multiset, map. <a href="./slides/Week8 Dis1B Slides.pdf">slides</a><br>
+Week 9: trie; radix tree; hash; STL unordered_set, unordered_map. <a href="./slides/Week9 Dis1B Slides.pdf">slides</a><br>
+Week 10: complete binary tree; binary heap; STL priority_queue; Final Review. <a href="./slides/Week10 Dis1B Slides.pdf">slides</a><br>
+</html>
